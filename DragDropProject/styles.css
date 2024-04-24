@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #280a76;
+  display: flex;
+  padding-top: 6rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row.Header {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.row.Items {
+  display: flex;
+  width: 820px;
+  margin: 0 40px;
+  justify-content: space-between;
+}
+
+.col-header {
+  width: 280px;
+  box-shadow: none;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.item {
+  width: 200px;
+  height: 46px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 16px;
+  background: #9a999a;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 200px;
+  height: 346px;
+}
+
+.cardHeader{
+  margin: 0;
+  color: #ffffff;
+}
+
+.itemHeader {
+  margin: 0;
+  color: #090909;
+}
+
+.start {
+  background: linear-gradient(90deg, #d80b0b 0%, #9a083e 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #e3b64d 0%, #ce9715 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #59e78d 0%, #11e771b7 100%);
+}
+
+.hold {
+  border: 3px solid rgb(241, 136, 0);
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 3px solid #f2a765
+}
